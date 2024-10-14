@@ -34,15 +34,14 @@ main{
     display: flex;
     flex-wrap: nowrap;
     margin-top: 30px;
-    margin-right: 5px;
-    width: 80%;
+    width: 100%;
 }
 
 main > section{
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    min-height: 65vh;
+    flex-basis: 80%;
 }
 
 section > div{
@@ -54,11 +53,10 @@ section > div{
 }
 
 aside{
-    position: fixed;
-    margin-top: 1%;
-    margin-left: 83.25%;
+    float: right;
+    margin-top: 5%;
+    margin-left: 1%;
     margin-right: 2%;
-    margin-bottom: 5%;
     width: 15%;
     height: 60%;
     padding: 5px;

@@ -27,6 +27,27 @@
         </nav>
     </header>
     <main>
+        <section class="bande_annonce">
+            <section>
+                <h1>Trailer Saison 6</h1>
+                <!-- aider de : https://stackoverflow.com/questions/18326973/clicking-html-5-video-element-to-play-pause-video-breaks-play-button-->
+                <video id="videoPlayer" src="../Doctor Who Series 6 (2011) Ultimate Trailer - Starring Matt Smith, Karen Gillian & Arthur Darvill.mp4" onclick="this.paused ? this.play() : this.pause();"></video>
+            </section>
+            <section>
+                <article>
+                    <h1>Acteurs</h1>
+                    <ul id="actors">
+                        <li><img class="actor_img" src="../img/matt_smith.png" alt="matt smith">Matt Smith </li>
+                        <li>David Tennant <img src="../img/david_tennant.jpg" alt="David Tennant" class="actor_img"></li>
+                        <li>Peter Capaldi<img src="../img/Peter_Capaldi_by_Gage_Skidmore_2.jpg" alt="Peter Capaldi" class="actor_img"></li>
+                        <li>Jenna Coleman <img class="actor_img" src="../img/Jenna_Coleman,_SDCC_2015_by_Gage_Skidmore.jpg" alt="Jenna_Coleman"></li>
+                        <li>Elisabeth Sladen<img src="../img/Elisabeth_Sladen_crop.png" alt="Elisabeth Sladen" class="actor_img"></li>
+                        <li>Karen Gillian<img src="../img/KarenGillan2023.jpg" alt="Karen Gillian" class="actor_img"></li>
+                        <li>Arthur Darvill<img src="../img/Arthur_Darvill_2016.jpg" alt="Arthur Darvill" class="actor_img"></li>
+                    </ul>
+                </article>
+            </section>
+        </section>
         <aside>
             <h2>Nouvelles</h2>
             <p>Appel à tout le Whoniverse ! Disney Branded Television et BBC viennent d’annoncer la date de sortie de la nouvelle saison de « Doctor Who », la toute première à bénéficier d’une diffusion sur Disney+ et d’une sortie mondiale en simultané. Si les abonnés peuvent d’ores et déjà regarder l’épisode spécial « Doctor Who : L’Église de Ruby Road », ils pourront découvrir deux nouveaux épisodes dès le samedi 11 mai sur la plateforme. Les suivants arriveront à un rythme hebdomadaire. 
@@ -55,31 +76,6 @@
                 <img id="copyright" src="../img/copyright.png" alt="copyright">
             </section>
         </aside>
-        <section class="bande_annonce">
-            <section>
-                <h1>Trailer Saison 6</h1>
-                <!-- aider de : https://stackoverflow.com/questions/18326973/clicking-html-5-video-element-to-play-pause-video-breaks-play-button-->
-                <video id="videoPlayer" src="../Doctor Who Series 6 (2011) Ultimate Trailer - Starring Matt Smith, Karen Gillian & Arthur Darvill.mp4" onclick="this.paused ? this.play() : this.pause();"></video>
-            </section>
-            <section>
-                <article>
-                    <h1>Acteurs</h1>
-                    <ul id="actors">
-                        <li><img class="actor_img" src="../img/matt_smith.png" alt="matt smith">Matt Smith </li>
-                        <li>David Tennant <img src="../img/david_tennant.jpg" alt="David Tennant" class="actor_img"></li>
-                        <li>Peter Capaldi<img src="../img/Peter_Capaldi_by_Gage_Skidmore_2.jpg" alt="Peter Capaldi" class="actor_img"></li>
-                        <li>Jenna Coleman <img class="actor_img" src="../img/Jenna_Coleman,_SDCC_2015_by_Gage_Skidmore.jpg" alt="Jenna_Coleman"></li>
-                        <li>Elisabeth Sladen<img src="../img/Elisabeth_Sladen_crop.png" alt="Elisabeth Sladen" class="actor_img"></li>
-                        <li>Karen Gillian<img src="../img/KarenGillan2023.jpg" alt="Karen Gillian" class="actor_img"></li>
-                        <li>Arthur Darvill<img src="../img/Arthur_Darvill_2016.jpg" alt="Arthur Darvill" class="actor_img"></li>
-                    </ul>
-                </article>
-                <article>
-
-                </article>
-            </section>
-        </section>
-
     </main>
     <footer>
         <p>Site crée par Quentin Chaufour étudiant a l'IUT d'Orléans dans le cas d'un TP</p>
