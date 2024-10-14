@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/positionnement.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/tardis_logo.png" type="image/x-icon">
+    <title>Accueil : Docotr Who</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <!-- div conseillé par validator w3c-->
+            <img src="../img/banner.png" alt="banner">       
+        </div>
+        <nav>
+            <table>
+                <tr>
+                    <th><a href="./index.html">Accueil</a></th>
+                    <th><a href="#">Saisons</a></th>
+                    <th><a href="./personnages.html">Personnages</a></th>
+                    <th><a href="./bande-annonce.html">Bande-annonce</a></th>
+                    <th><a href="#">Boutique</a></th>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <h2>Nouvelles</h2>
+            <p>Appel à tout le Whoniverse ! Disney Branded Television et BBC viennent d’annoncer la date de sortie de la nouvelle saison de « Doctor Who », la toute première à bénéficier d’une diffusion sur Disney+ et d’une sortie mondiale en simultané. Si les abonnés peuvent d’ores et déjà regarder l’épisode spécial « Doctor Who : L’Église de Ruby Road », ils pourront découvrir deux nouveaux épisodes dès le samedi 11 mai sur la plateforme. Les suivants arriveront à un rythme hebdomadaire. 
+
+                Dans cette nouvelle saison, le Docteur (Ncuti Gatwa) et Ruby Sunday (Millie Gibson) voyagent dans le temps et l’espace, de l’époque de la Régence en Angleterre aux guerres futures, et se battent du côté du bien avec de nouveaux amis extraordinaires, contre de redoutables ennemis.
+                
+                La bande-annonce révèle pour la première fois le personnage d'Indira Varma (« Game of Thrones »), la Duchesse, et il annonce que Callie Cooke (« Henpocalypse ! ») fera une apparition. D'autres personnes figurent dans la bande-annonce : Anita Dobson, Yasmin Finney, Michelle Greenidge, Bonnie Langford, Jinkx Monsoon, Jemma Redgrave, Lenny Rush et Angela Wynter.
+                
+                « J’ai enfin l’immense plaisir de vous présenter une nouvelle saison des aventures du Docteur et Ruby », s’exclame Russell T. Davies, showrunner, producteur exécutif et scénariste de la série. « Il y aura des monstres ! Des courses-poursuites ! Des méchants ! Du mystère ! Et un secret terrifiant qui perdure depuis des décennies. N’en perdez pas une miette ! »</p>
+            <h2>Reseaux sociaux</h2>
+            <table>
+                <tr>
+                    <th><a href="https://facebook.com" target="_blank">Facebook</a></th> 
+                </tr> 
+                <tr> 
+                    <th><a href="https://twitter.com" target="_blank">Twitter</a></th> 
+                </tr> 
+            </table>
+            <h2>Contacts</h2>
+            <section>
+                <img src="../img/DW_logo.png" alt="logo DW">
+                <article>
+                    <p>John</p>
+                    <p id="mail">john@gmail.com</p>
+                </article>
+                <img id="copyright" src="../img/copyright.png" alt="copyright">
+            </section>
+        </aside>
+        <section class="bande_annonce">
+            <section>
+                <h1>Trailer Saison 6</h1>
+                <!-- aider de : https://stackoverflow.com/questions/18326973/clicking-html-5-video-element-to-play-pause-video-breaks-play-button-->
+                <video id="videoPlayer" src="../Doctor Who Series 6 (2011) Ultimate Trailer - Starring Matt Smith, Karen Gillian & Arthur Darvill.mp4" onclick="this.paused ? this.play() : this.pause();"></video>
+            </section>
+            <section>
+                <article>
+                    <h1>Acteurs</h1>
+                    <ul id="actors">
+                        <li><img class="actor_img" src="../img/matt_smith.png" alt="matt smith">Matt Smith </li>
+                        <li>David Tennant <img src="../img/david_tennant.jpg" alt="David Tennant" class="actor_img"></li>
+                        <li>Peter Capaldi<img src="../img/Peter_Capaldi_by_Gage_Skidmore_2.jpg" alt="Peter Capaldi" class="actor_img"></li>
+                        <li>Jenna Coleman <img class="actor_img" src="../img/Jenna_Coleman,_SDCC_2015_by_Gage_Skidmore.jpg" alt="Jenna_Coleman"></li>
+                        <li>Elisabeth Sladen<img src="../img/Elisabeth_Sladen_crop.png" alt="Elisabeth Sladen" class="actor_img"></li>
+                        <li>Karen Gillian<img src="../img/KarenGillan2023.jpg" alt="Karen Gillian" class="actor_img"></li>
+                        <li>Arthur Darvill<img src="../img/Arthur_Darvill_2016.jpg" alt="Arthur Darvill" class="actor_img"></li>
+                    </ul>
+                </article>
+                <article>
+
+                </article>
+            </section>
+        </section>
+
+    </main>
+    <footer>
+        <p>Site crée par Quentin Chaufour étudiant a l'IUT d'Orléans dans le cas d'un TP</p>
+        <img id="logo_iut" src="../img/logo-orleans.jpg" alt="logo iut orleans">
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+
+
+header > div img{
+    border: solid black 5px;
+    border-radius: 5px;
+}
+
+header img[alt]{
+    font-size: 2rem;
+}
+
+header table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+nav th{
+    border: solid black 2px;
+}
+
+nav th:hover{
+    background-color: gray;
+    opacity: 70%;
+    transition: 500ms ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+aside{
+    border: solid black 2px;
+    border-radius: 5px;
+}
+aside > section{
+    background-color: aliceblue;
+}
+
+aside table{
+    border-collapse: collapse;
+}
+
+aside table th{
+    border: solid black 2px;
+}
+
+#copyright{
+    height: 20px;
+    width: 20px;
+    padding-top: 6.5%;
+}
+
+
+footer{
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+.index_content h1{
+    font-size: 2rem;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    border: solid black 2px;
+    background-color: lightslategray;
+}
+
+.index_content p{
+    font-size: 1.125rem;
+}
